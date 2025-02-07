@@ -1,0 +1,33 @@
+#app {
+    display: grid;
+    grid-template-columns: 32.78% 67.22%;
+
+    background-color: var(--shape-background);
+    padding: 1.25rem;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+    gap: 1.25rem;
+}
+
+aside {
+    margin-left: auto;
+}
+
+main {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .main-container {
+    max-width: 35rem;
+    padding-block: 5rem;
+}
+
+main .main-container .titulo h1 {
+    font: var(--text-heading-md);
+    font-size: 1.75rem;
+    color: var(--text-heading);
+}

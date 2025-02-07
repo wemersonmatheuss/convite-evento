@@ -8,12 +8,12 @@
     --open-font-family: "Open Sans", serif;
     --balao-font-family: "Baloo 2", serif;
 
-    --text-heading-md: bold 1.75rem/auto var(var--balao-font-family); 
-    --text-heading-sm: bold 1.125rem/auto var(--balao-font-family);
+    --text-heading-md: var(var--balao-font-family); 
+    --text-heading-sm: var(--balao-font-family);
 
-    --text-body-md: 1rem/auto var(--open-font-family);
-    --text-body-sm: 0.875rem/auto var(--open-font-family);
-    --text-body-xs: 0.75rem/auto var(--open-font-family);
+    --text-body-md: var(--open-font-family);
+    --text-body-sm: var(--open-font-family);
+    --text-body-xs: var(--open-font-family);
 
     --brand-light: #59B2FF;
     --brand-mid: #3487CF;
