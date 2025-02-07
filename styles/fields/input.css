@@ -174,4 +174,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     resize: none;
 }
 
+input:focus {
+    outline: 1px solid var(--brand-light);
+}
+
+textarea:focus {
+    outline: 1px solid var(--brand-light);
+}
+
   
