@@ -182,4 +182,22 @@ textarea:focus {
     outline: 1px solid var(--brand-light);
 }
 
+.color-wrapper {
+    display: flex;
+    gap: 0.75rem;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.color-wrapper .radio-flex {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.75rem;
+}
+
+.color-wrapper input {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
   
