@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --open-font-family: "Open Sans", serif;
+    --balao-font-family: "Baloo 2", serif;
+
+    --text-heading-md: bold 1.75rem/auto var(var--balao-font-family); 
+    --text-heading-sm: bold 1.125rem/auto var(--balao-font-family);
+
+    --text-body-md: 1rem/auto var(--open-font-family);
+    --text-body-sm: 0.875rem/auto var(--open-font-family);
+    --text-body-xs: 0.75rem/auto var(--open-font-family);
+
+    --brand-light: #59B2FF;
+    --brand-mid: #3487CF;
+    --brand-dark: #1D6FB6;
+
+    --danger: #FF5959;
+
+    --input-base: #1C1F21;
+    --input-stroke: #363B40;
+    --input-placeholder: #869198;
+
+    --shape-background: #131516;
+    --shape-body: #212427;
+    --shape-button: #2D3136;
+    --shape-hover: #383D42;
+
+    --text-body: #C8CDD0;
+    --text-heading: #F9F9F9;
+}
