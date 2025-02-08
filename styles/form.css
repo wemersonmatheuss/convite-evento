@@ -1,9 +1,12 @@
 @import url(./fields/input.css);
 @import url(./fields/radio.css);
 @import url(./fields/theme.css);
+@import url(./fields/contact.css);
 
 form {
     margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
 
 }
 
