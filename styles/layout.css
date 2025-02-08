@@ -26,7 +26,8 @@ main {
 
 main .main-container {
     max-width: 35rem;
-    padding-block: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 main .main-container .title h1 {

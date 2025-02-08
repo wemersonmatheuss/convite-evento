@@ -1,0 +1,63 @@
+.personalize {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 3.125rem;
+
+
+    font: var(text-heading-sm);
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.25rem;
+
+    color: var(--text-heading);
+}
+
+
+
+.color-wrapper {
+    display: flex;
+    gap: 0.75rem;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.color-wrapper .radio-flex {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.75rem;
+}
+
+.color-wrapper input {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: none;
+}
+
+.color-circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    border: 3px solid transparent;
+}
+
+input[type="radio"]:checked + .color-circle {
+    border: 0.25rem solid white; 
+}
+
+.hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hover:hover {
+    background: var(--shape-hover);
+    width: 50px;
+    height: 50px;
+    border-radius: 99px;
+    transition: 1s;
+}

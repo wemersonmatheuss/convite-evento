@@ -30,7 +30,7 @@
                     <h1>Crie seu convite</h1>
                 </div>
 
-                <form method="post" enctype="multipart/form-data">
+                <form method="get" enctype="multipart/form-data">
                     <fieldset class="invitation">
                         <legend>
                             <img src="./assets/icons/calendar.svg" alt="">
@@ -90,21 +90,191 @@
 
                         <div class="color-wrapper">
 
-                            <label for="radio">Cor principal</label>
+                            <label for="radio" style="color: #FFFFFF;">Cor principal</label>
 
                             <div class="radio-flex">
+                                <div class="hover">
+                                    <input type="radio" id="color1" name="color">
+                                    <label for="color1" class="color-circle" style="background-color: var(--brand-light);"></label>
+                                </div>
+                            
+                                <div class="hover">
+                                    <input type="radio" id="color2" name="color">
+                                    <label for="color2" class="color-circle" style="background-color: #6A59FF;"></label>
+                                </div>
+                               
+                                <div class="hover">
+                                    <input type="radio" id="color3" name="color">
+                                    <label for="color3" class="color-circle" style="background-color: #B259FF;"></label>
+                                </div>
+                               
+                                <div class="hover">
+                                    <input type="radio" id="color4" name="color">
+                                    <label for="color4" class="color-circle" style="background-color: #FF59F9;"></label>
+                                </div>
+                               
+                                <div class="hover">
+                                    <input type="radio" id="color5" name="color">
+                                    <label for="color5" class="color-circle" style="background-color: #FF598B;"></label>
+                                </div>
+                               
+                                <div class="hover">
+                                    <input type="radio" id="color6" name="color">
+                                    <label for="color6" class="color-circle" style="background-color: #FF5959;"></label>
+                                </div>
+                               
+                                <div class="hover">
+                                    <input type="radio" id="color7" name="color">
+                                    <label for="color7" class="color-circle" style="background-color: #FF8B59;"></label>
+                                </div>
+                               
+                                <div class="hover">
+                                    <input type="radio" id="color8" name="color">
+                                    <label for="color8" class="color-circle" style="background-color: #FFCD59;"></label>
+                                </div>
+                               
+                                <div class="hover">
+                                    <input type="radio" id="color9" name="color">
+                                    <label for="color9" class="color-circle" style="background-color: #E1FF59;"></label>
+                                </div>
+                               
+                                <div class="hover">
+                                    <input type="radio" id="color10" name="color">
+                                    <label for="color10" class="color-circle" style="background-color: #59FF91;"></label>
+                                </div>
+                               
+                                <div class="hover">
+                                    <input type="radio" id="color11" name="color">
+                                    <label for="color11" class="color-circle" style="background-color: #59FFF9;"></label>
+                                </div>
+                            </div>
+                        </div>
 
-                                <input type="radio">
-                                <input type="radio">
-                                <input type="radio">
-                                <input type="radio">
-                                <input type="radio">
-                                <input type="radio">
-                                <input type="radio">
-                                <input type="radio">
-                                <input type="radio">
-                                <input type="radio">
-                                <input type="radio">
+                        <div class="checkbox-container">
+
+                            <label style="color: #FFFFFF;">Tema do evento</label>
+
+                            <div class="theme-flex">
+                                <div class="checkbox">
+                                    <input type="radio" id="checkbox1" name="theme">
+                                    <label for="checkbox1" class="checkbox-label">
+                                        <img src="./assets/theme/Image.png" alt="Ícone"> 
+                                        <span>Aniversário</span>
+                                    </label>
+                                </div>
+                            
+                                <div class="checkbox">
+                                    <input type="radio" id="checkbox2" name="theme">
+                                    <label for="checkbox2" class="checkbox-label">
+                                        <img src="./assets/theme/Imagee.png" alt="Ícone">
+                                        <span>Infantil</span>
+                                    </label>
+                                </div>
+
+                                <div class="checkbox">
+                                    <input type="radio" id="checkbox3" name="theme">
+                                    <label for="checkbox3" class="checkbox-label">
+                                        <img src="./assets/theme/Image (1).png" alt="Ícone">
+                                        <span>Formatura</span>
+                                    </label>
+                                </div>
+
+                                <div class="checkbox">
+                                    <input type="radio" id="checkbox4" name="theme">
+                                    <label for="checkbox4" class="checkbox-label">
+                                        <img src="./assets/theme/Image (2).png" alt="Ícone">
+                                        <span>Casamento</span>
+                                    </label>
+                                </div>
+
+                                <div class="checkbox">
+                                    <input type="radio" id="checkbox5" name="theme">
+                                    <label for="checkbox5" class="checkbox-label">
+                                        <img src="./assets/theme/Image (3).png" alt="Ícone">
+                                        <span>Chá de bebê</span>
+                                    </label>
+                                </div>
+
+                                <div class="checkbox">
+                                    <input type="radio" id="checkbox6" name="theme">
+                                    <label for="checkbox6" class="checkbox-label">
+                                        <img src="./assets/theme/Image (4).png" alt="Ícone">
+                                        <span>Chá de panela</span>
+                                    </label>
+                                </div>
+
+                                <div class="checkbox">
+                                    <input type="radio" id="checkbox7" name="theme">
+                                    <label for="checkbox7" class="checkbox-label">
+                                        <img src="./assets/theme/Image (5).png" alt="Ícone">
+                                        <span>Carnaval</span>
+                                    </label>
+                                </div>
+
+                                <div class="checkbox">
+                                    <input type="radio" id="checkbox8" name="theme">
+                                    <label for="checkbox8" class="checkbox-label">
+                                        <img src="./assets/theme/Image (6).png" alt="Ícone">
+                                        <span>Páscoa</span>
+                                    </label>
+                                </div>
+
+                                <div class="checkbox">
+                                    <input type="radio" id="checkbox9" name="theme">
+                                    <label for="checkbox9" class="checkbox-label">
+                                        <img src="./assets/theme/Image (7).png" alt="Ícone">
+                                        <span>São João</span>
+                                    </label>
+                                </div>
+
+                                <div class="checkbox">
+                                    <input type="radio" id="checkbox10" name="theme">
+                                    <label for="checkbox10" class="checkbox-label">
+                                        <img src="./assets/theme/Image (8).png" alt="Ícone">
+                                        <span>Halloween</span>
+                                    </label>
+                                </div>
+
+                                <div class="checkbox">
+                                    <input type="radio" id="checkbox11" name="theme">
+                                    <label for="checkbox11" class="checkbox-label">
+                                        <img src="./assets/theme/Image (9).png" alt="Ícone">
+                                        <span>Natal</span>
+                                    </label>
+                                </div>
+
+                                <div class="checkbox">
+                                    <input type="radio" id="checkbox12" name="theme">
+                                    <label for="checkbox12" class="checkbox-label">
+                                        <img src="./assets/theme/Image (10).png" alt="Ícone">
+                                        <span>Outro</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="general-style">
+                            <div class="style">
+                                <div class="mode-lig">
+                                    <label>Estilo</label>
+                                    <div class="mode">
+                                        <label class="toggle">
+                                            <input type="checkbox">
+                                            <img class="icon" src="./assets/icons/escuro.svg" alt="Modo Escuro">
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="select-img">
+                                    <label for="image">Foto de capa</label>
+                                    <div class="img">
+                                        <label class="download-img" id="image">
+                                            <input type="file" accept="image/*">
+                                            <img src="./assets/icons/upload.svg" alt="">
+                                            <p>Selecionar arquivos</p>
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </fieldset>
